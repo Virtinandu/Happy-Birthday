@@ -8,6 +8,8 @@ html {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  position: relative;
+  text-align: center;
 }
 .text-xl{
   min-height: 100vh;
@@ -42,6 +44,8 @@ p#start {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 30px;
   color: rgb(255, 255, 255);
+  text-align: center;
+  position:relative;
 }
 
 @-webkit-keyframes intro {
@@ -180,7 +184,7 @@ p#start {
   width: 60%;
   height: 50em;
   bottom: 0;
-  margin-left: 11em;
+  margin-left: 255px;
   font-size: 150%;
   text-align: center;
   overflow: hidden;
@@ -227,6 +231,7 @@ p#start {
   margin: 0.8em 0;
   font-weight: 500;
   color: white;
+  position: relative;
 }
 
 #titles p.center {
@@ -235,11 +240,12 @@ p#start {
   color: rgb(255, 255, 255);
   font-size: 40px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
 }
 
 
 #titlecontent {
-  position: absolute;
+  position: relative;
   top: 100%;
   text-align: center;
   -webkit-animation: scroll 230s linear;
@@ -248,11 +254,6 @@ p#start {
   -o-animation: scroll 230s linear;
   animation: scroll 230s linear  ;
 
-}
-.h5 #titlecontent::after{
-  position: absolute;
-  top: 100%;  
-  font-size: 30px;
 }
 
 
