@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 3, 104, 0.7),rgba(10, 3, 104, 0.7)),url(images/art.png);
+    background-position: center;
+    background-size: cover;
+}
+.sub-header{
+    color: rgb(226, 240, 255);
+    text-align: center;
+    position: relative;
+    top: 260px;
+}
+.sub-header h1{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+.sub-header p{
+    font-size: 22px;
+    text-align: center;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(185, 185, 252);
+    border: 1px solid #b4e1ff;
+    padding: 10px 15px;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+.hero-btn:hover{
+    border: 1px  solid #245db3;
+    background: #030233;
+    transition: 0.5s;
+}
+
+
+/*-----------------Dear Rohitt------------------*/
+
+
+.header1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(104, 3, 91, 0.7),rgba(55, 3, 104, 0.7)),url(images/us.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sub-header1{
+    color: rgb(255, 255, 255);
+    padding-top: 45%;
+    text-align: center;
+}
+.he-btn{
+    flex-basis: 24.5%;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(127, 236, 255);
+    border: 2px solid #8adaff;
+    padding: 5px 25px;
+    font-size: 25px;
+    background: transparent;
+    cursor: pointer;
+    margin-right: 15px;
+    left: 10%;
+    text-align: center;
+}
+.he-btn:hover{
+    border: 1px  solid #f9baff;
+    color: #ffffff;
+    background: #630f5f;
+    transition: 0.5s;
+}
+.sub-header1 h1{
+    text-align: right;
+    position:relative;
+    bottom: 630px;;
+    right: 39px;;
+    font-size: 25px;
+}
+.sub-header1 p{
+    text-align: left;
+    position: relative;
+    bottom: 600px;
+    margin-left: 8%;
+}
+.sub-header1 h1{
+    background:transparent;
+    text-align:center;
+    width: 600px;
+    font-size: 22px;
+    right: 140px;
+    position: relative;
+    right: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.sub-header1 h2{
+    background:transparent;
+    margin-top: 19px;
+    bottom: 630px;
+    text-align:center;
+    width: 600px;
+    font-size: 20px;
+    right: 140px;
+    position: relative;
+    right: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/*---------------------letter-------------------*/
+
+.header2{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(104, 3, 91, 0.7),rgba(55, 3, 104, 0.7)),url(images/q.png);
+background-position: center;
+background-size: cover;
+}
